@@ -325,8 +325,24 @@ li {
     font-family: sans-serif;
     
 }
+.social-item1 img {
+    height: 40px;
+    
+}
 .counter9 {
     background-color: rgb(58, 132, 166);
     height: 159px;
     width: 100vw;
+}
+.counter9 pre {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    padding-top: 14px;
+    padding-left: 10px;
+
+}
+.footer-bottom{
+    width: 100vw;
+    height: 60px;
+    background-color: grey;
 }
