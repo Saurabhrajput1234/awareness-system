@@ -19,7 +19,10 @@
     position: relative;
     padding-left: 34px;
     text-shadow: 2px 2px 1px;
+    background-image: url(back3.jpg);
+    background-size: 100%;
 }
+
 
 .contact1 {
     height: 30px;
@@ -30,12 +33,19 @@
 .counter12 {
     padding: 0px;
     margin: 0;
-    background-color: rgb(27, 126, 153);
+    /* background-color: rgb(27, 126, 153); */
     height: 228px;
+    background-image: url(back1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.counter12 img{
+ 
 }
 
 
-.navbar1{
+.navbar1 {
     display: flex;
     position: relative;
     /* position: fixed; */
@@ -44,7 +54,7 @@
     /* background-color: aqua; */
 }
 
-#navbar{
+#navbar {
     display: flex;
     /* position: relative; */
     position: fixed;
@@ -55,7 +65,7 @@
     margin: 0;
     justify-content: center;
     align-items: center;
-    background-color: rgb(31, 71, 90);
+    background-color: rgb(11, 44, 113);
 }
 
 #navbar ul {
@@ -105,17 +115,18 @@ li {
 }
 
 .counterintro h1 {
-    color: rgb(245, 241, 241);
-    text-shadow: 1px 2px 1px darkslategray ;
-    font-family: "poppins",sans-serif;
+    color: rgb(13, 43, 126);
+    text-shadow: 1px 2px 1px rgb(225, 235, 235);
+    font-family: "poppins", sans-serif;
     padding-left: 60px;
 }
 
 .counterintro pre {
-    color: white;
+    color: rgb(11, 41, 95);
     font-family: sans-serif;
     font-size: 1.5rem;
     padding-left: 100px;
+    text-shadow: 1px 1px 1px rgb(244, 248, 248);
 }
 
 .counter2 {
@@ -135,10 +146,13 @@ li {
     /* background-color: aquamarine; */
 
 }
+
 .container2 h1 pre {
     font-family: sans-serif;
 }
-.tree pre{font-family: sans-serif;
+
+.tree pre {
+    font-family: sans-serif;
     font-size: 1.5rem;
 
 }
@@ -150,13 +164,13 @@ li {
     height: 311px;
     width: 36vw;
     padding-top: 20px;
-    
+
 }
 
 .container1 img {
     height: 353px;
     width: 28vw;
-    
+
 }
 
 
@@ -168,14 +182,16 @@ li {
     width: 100vw;
     padding-left: 36px;
 }
-.container4{
+
+.container4 {
     padding: 3px;
     margin: 4px;
     /* text-align: center; */
     width: 100%;
-    height:100% ;
+    height: 100%;
 }
-.container4 h1{
+
+.container4 h1 {
     color: white;
     padding-top: 20px;
     /* font-family: 'Courier New', Courier, monospace; */
@@ -184,6 +200,7 @@ li {
     font-size: 2rem;
     padding-left: 620px;
 }
+
 .container4 pre {
     font-family: sans-serif;
     font-size: 1.7rem;
@@ -205,6 +222,8 @@ li {
 
 .pen1 h1 {
     color: white;
+    text-shadow: 1px 2px 1px rgb(5, 106, 106);
+    font-family: sans-serif;
 }
 
 .button {
@@ -243,7 +262,8 @@ li {
     width: 35vw;
     padding: 41px;
 }
-.mission{
+
+.mission {
     margin: 0;
     height: 350px;
     display: flex;
@@ -252,15 +272,19 @@ li {
     /* background-color: aqua; */
     justify-content: center;
     align-items: center;
-    padding: 0;width: 67vw;
+    padding: 0;
+    width: 67vw;
     color: rgb(8, 46, 59);
-}.mission h1{
+}
+
+.mission h1 {
     color: rgb(10, 96, 96);
     font-family: sans-serif;
     padding-right: 240px;
 }
+
 .mission pre {
-    padding-right:231px ;
+    padding-right: 231px;
     color: rgb(25, 59, 83);
     font-family: sans-serif;
     font-size: 1.5rem;
@@ -307,33 +331,41 @@ li {
     width: 50vw;
     color: white;
 }
-.footer-container1 h2{
+
+.footer-container1 h2 {
     font-family: sans-serif;
 }
-.footer-container1 PRE{
+
+.footer-container1 PRE {
     font-family: sans-serif;
     font-size: 1.2rem;
 }
-.social { padding-top: 30px;
+
+.social {
+    padding-top: 30px;
     height: 300px;
     width: 50vw;
     text-align: center;
     color: white;
 
 }
+
 .social pre {
     font-family: sans-serif;
-    
+
 }
+
 .social-item1 img {
     height: 40px;
-    
+
 }
+
 .counter9 {
     background-color: rgb(58, 132, 166);
     height: 159px;
     width: 100vw;
 }
+
 .counter9 pre {
     font-family: sans-serif;
     font-size: 1.2rem;
@@ -341,7 +373,8 @@ li {
     padding-left: 10px;
 
 }
-.footer-bottom{
+
+.footer-bottom {
     width: 100vw;
     height: 60px;
     background-color: grey;
