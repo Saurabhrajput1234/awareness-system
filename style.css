@@ -435,7 +435,7 @@
 }
 
 .tree1 {
-    height: 500px;
+    height: 460px;
     width: 100vw;
     background-color: rgb(4, 97, 72);
     border-radius: 0px 0px 120px 120px;
@@ -567,8 +567,8 @@
 .tree7 {
     height: 500px;
     width: 100vw;
-    /* display: flex; */
     padding-top: 20px;
+    box-shadow: 9px 9px silver;
 
 
 
@@ -629,12 +629,13 @@
 }
 
 .tree8 {text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
     height: 500px;
     width: 100vw;
-    background-color: rgb(8, 39, 29);
+    background-color: white;
     font-family: sans-serif;
-    color: white;
+    color: black;
+    margin: 0;
 
 }
 
@@ -666,4 +667,51 @@
     text-align: center;
     padding-top: 30px;
 }
+/* slider  */
+
+.slide-container{
+    position: relative;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+.slide img{
+    width: 80vw;
+    height: 580px;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: aliceblue;
+    padding: 8px 19px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.next{
+    right: 10px;
+}
+.prev{
+    left: 10px;
+}
+.caption{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(56, 22, 22)
+}
+.slide{
+    display: none;
+}
+.l1{
+    height: 26px;
+    width: 100vw;
+    background-color: rgb(22, 34, 22);
+}
+
 
