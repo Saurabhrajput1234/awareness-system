@@ -1,0 +1,505 @@
+@media only screen and (max-width:600px) {
+    .tree1 {
+        height: 218px;
+        border-radius: 0px 0px 57px 57px;
+    }
+
+    .t1 {
+        font-size: 0.5rem;
+        padding-top: 32px;
+        padding-left: 31px;
+    }
+
+    .t3 {
+        padding-left: 20px;
+    }
+
+    .t3 img {
+        height: 95px;
+    }
+
+    .tree pre {
+        font-size: 0.7rem;
+    }
+
+    .t4 {
+        padding-top: 26px;
+    }
+
+    .tree2 {
+        height: 774px;
+        padding-left: 2px;
+        display: block;
+    }
+
+    .top {
+        height: 250px;
+        width: 329px;
+        top: -40px;
+    }
+
+    .top img {
+        height: 231px;
+        width: 320px;
+    }
+
+    .tree3 {
+        height: 95px;
+        padding-left: 0px;
+    }
+
+    .tree3 h1 {
+        padding-left: 14px;
+        font-size: 0.9rem;
+    }
+
+    .tree3 img {
+        height: 41px;
+        padding-left: 5px;
+    }
+
+    .top4 {
+        padding-left: 9px;
+    }
+
+    .tree pre {
+        font-size: 0.45rem;
+    }
+
+    .tree7 {
+        height: 837px;
+    }
+
+    .tree7 h2 {
+        padding-left: 114px;
+        font-size: 1rem;
+    }
+
+    .box {
+        height: 225px;
+        width: 306px;
+
+    }
+
+    .box1 {
+        width: 303px;
+    }
+
+    .box2 {
+        width: 303px;
+    }
+
+    .box3 {
+        width: 303px;
+    }
+
+    .pin {
+        display: block;
+    }
+
+    .line {
+        padding: 27px;
+        padding-left: 12px;
+        font-size: 0.44rem;
+        height: 121px;
+    }
+
+    .sir1 {
+        padding-right: 0px;
+    }
+
+    .prakash label::before {
+        content: "\2261";
+        font-size: 39px;
+        position: relative;
+        top: -33px;
+        font-weight: 600;
+    }
+
+    .prakash input:checked+label::before {
+        content: "\00d7";
+        font-size: 39px;
+        position: relative;
+        top: -33px;
+        font-weight: 600;
+    }
+
+    .fan2 {
+        display: block;
+
+    }
+
+    .pic {
+        margin: 8px;
+        height: 201px;
+        width: 168px;
+        font-size: 0.4rem;
+    }
+
+    .pic img {
+        height: 150px;
+        width: 164px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    .counter2 {
+        height: 131px;
+    }
+
+    .container2 {
+        padding-left: 10px;
+        height: 78px;
+        width: 54vw;
+        padding-top: 9px;
+        font-size: 0.3rem;
+    }
+
+    .treeA pre {
+        font-size: 0.5rem;
+    }
+
+    .counter12 {
+        height: 55px;
+        display: block;
+    }
+
+    .prakash {
+        height: 164px;
+            padding-left: 20px;
+    }
+
+    .prakash ul {
+        top: 149px;
+    }
+
+    .prakash img {
+        height: 170px;
+        padding-top: 70px;
+    }
+
+    .footer-bottom {
+        height: 30px;
+    }
+
+    .counter9 pre {
+        font-size: 0.3rem;
+        padding-left: 2px;
+    }
+
+    .counter9 {
+        height: 46px;
+    }
+
+    #footer {
+        height: 224px;
+    }
+
+    .footer-container1 {
+        padding-left: 8px;
+        padding-top: 21px;
+        height: 292px;
+    }
+
+    .footer-container1 h2 {
+        font-size: 1rem;
+    }
+
+    .footer-container1 pre {
+        font-size: 0.5rem;
+    }
+
+    .social {
+        height: 201px;
+        padding-left: 76px;
+    }
+
+    .social pre {
+        font-size: 0.5rem;
+    }
+
+    .counter7 {
+        height: 88px;
+        font-size: 18px;
+    }
+
+    .container7 {
+        font-size: 18px;
+        padding: 16px;
+
+    }
+
+    .counter6 {
+        height: 135px;
+
+    }
+
+    .container6 {
+        width: 19vw;
+    }
+
+    .container6 img {
+        width: 28vw;
+        padding: 10px;
+    }
+
+    .mission {
+        height: 107px;
+    }
+
+    .mission h1 {
+        padding-top: 25px;
+        padding-right: 145px;
+        font-size: 0.8rem;
+    }
+
+    .mission pre {
+        padding-right: 196px;
+        font-size: 0.7rem;
+        padding-top: 25px;
+    }
+
+    .counter5 {
+        height: 113px;
+    }
+
+    .pen1 {
+        height: 232px;
+    }
+
+    .pen1 h1 {
+        font-size: 1rem;
+    }
+
+    #bu1 {
+        font-size: 14px;
+        margin-top: 8px;
+        border-radius: 21px;
+    }
+
+    .button h6 {
+        margin: 6px;
+
+    }
+
+    .counter4 {
+        height: 113px;
+        padding-left: 7px;
+        font-size: 0.4rem;
+    }
+
+    .container4 {
+        width: 100vw;
+        height: 83px;
+        font-size: 0.4rem;
+    }
+
+    .container4 pre {
+        padding-top: 10px;
+        font-size: 0.4rem;
+    }
+
+    .container4 h1 {
+        padding-top: 0px;
+        font-size: 0.6rem;
+        padding-left: 135px;
+    }
+
+    .container1 {
+        height: 211px;
+        padding-left: 108px;
+    }
+
+    .container1 img {
+        height: 44px;
+        width: 13vw;
+    }
+
+    .slide3 {
+        height: 387px;
+
+    }
+
+    .slide3A {
+        height: 434px;
+        width: 88%;
+        margin-left: 15px;
+        padding-left: 9px;
+        display: block;
+    }
+
+    .trainer1 {
+        height: 36px;
+        width: 162px;
+        /* display: block; */
+    }
+
+    .trainer1 {
+        height: 36px;
+        width: 162px;
+        /* display: block; */
+    }
+
+    .trainer1 {
+        height: 36px;
+        width: 162px;
+        display: block;
+    }
+
+    .prev {
+        left: 9px;
+    }
+
+    .next {
+        right: 9px;
+    }
+
+    .mp1 {
+        height: 132px;
+        width: 138px;
+    }
+
+    .mpt {
+        height: 251px;
+        width: 278px;
+    }
+
+    #menulist {
+        height: 34px;
+    }
+
+    .counterB {
+        height: 105px;
+        width: 100vw;
+        background-size: 380px;
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+    .counter4 {
+        height: 68px;
+    }
+    .counterintro{
+        margin-left: -107px;
+        height: 15px;
+        position: relative;
+        top: -49px;
+    }
+    .counterintro h1{
+        padding-left: 58px;
+        font-size: 1rem;
+        
+    }
+    .counterintro pre{
+        font-size: .5rem;
+        padding-left: 92px;
+    }
+    .srish{
+        height: 64px;
+        padding-left: 294px;
+        position: relative;
+        top: -8px;
+    }
+    .srish img{
+        height: 58px;
+        padding-left: 12px;
+    }
+}
+
+/* about us css */
+
+.counterB {
+    height: 360px;
+    width: 100vw;
+    background-color: black;
+    background-image: url(img/about.jpeg);
+}
+
+/*slide new*/
+.music{
+    position: relative;
+    width: 100vw;
+}
+.music1 img{
+    width: 100vw;
+    height: 415px;
+}
+.arrow1{
+    cursor: pointer;
+    position: absolute;
+    top: 27%;
+    color: black;
+    background-color: aliceblue;
+    padding: 8px 19px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.first{
+    left: 73px;
+}
+.secand{
+    right: 73px;
+}
+.caption{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(56, 22, 22)
+}
+.music1{
+    display: none;
+}
+.text1{
+    height: 200px;
+    position: relative;
+    top: -367px;
+    font-size: 1.6rem;
+    /* padding-left: 153px; */
+    text-align: center;
+    font-family: sans-serif;
+}
+.text1 pre{
+    font-family: sans-serif;
+}
+.text1 h1{
+    color:#2f8267;
+    text-shadow: 1px 2px 1px rgb(23, 36, 139)
+}
+@media only screen and (max-width:620px){
+    .text1{font-size: 0.5rem;
+        top: -210px;}
+        .music1 img{
+            height: 230px;
+        }
+.counter3{
+    height: 106px;
+}
+#menu ul li a {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(19, 83, 151);
+    padding: 5px 2px;
+    position: relative;
+    transition: 0.4s ease;
+    /* margin: 5px; */
+    text-decoration: none;
+    padding-left: 16px;
+    border-radius: 24px;
+    border: 2px solid;
+  }
+}
+.monial {height: 23px;
+    position: relative;
+    top: 20px;
+
+}

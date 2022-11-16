@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: rgb(250, 249, 248);
+    background-image: url("img/background.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  h1 {
+    color: rgb(54, 39, 142);
+    text-align: center;
+    font-weight: bold;
+    margin: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.2rem;
+  }
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 28px;
+  }
+  form {
+    text-align: center;
+    margin: 105px 33%;
+    background-color: #ffffff2b;
+    padding: 3%;
+  }
+  label {
+    color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.2rem;
+  }
+  .class2 {
+    margin: 0% auto;
+    display: inline-block;
+    top: 22px;
+    position: absolute;
+    left: 414px;
+    top: -29px;
+  }
+  .class3 {
+    text-align: center;
+    margin: -10px 33%;
+    padding: 2%;
+    font-size:1.5rem;
+  }
+  .class3 input {
+    background-color: aquamarine;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: blue;
+    font-size: 1.5rem;
+    cursor:pointer;
+  }
