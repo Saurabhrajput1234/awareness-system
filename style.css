@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,33 +12,158 @@
     width: 100vw;
     /* background-color: orange; */
 }
-
-.prakash {
-    padding: 0;
-    margin: 0;
-    height: 300px;
+.navbar{
+    background: #05526a;
+    text-decoration: none;
+    position: fixed;
     width: 100vw;
-    /* background-color:blue; */
-    position: relative;
-    padding-left: 34px;
-    text-shadow: 2px 2px 1px;
-    background-image: url(back3.jpg);
-    background-size: 100%;
+    z-index: 5;
+
 }
 
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    padding: 10px 15px;
+    position: relative;
+}
+.srish{height: 23px;
+position: relative;
+top: -58px;
+}
+.srish img{
+    height: 260px;
+    padding-left: 927px;
+}
+.logo img {
+    width: 50px;
+    display: block;
+}
+
+#menu ul li {
+    display: inline-block;
+
+
+}
+
+#menu input,
+#menu label {
+    display: none;
+}
+
+@media only screen and (max-width:620px) {
+    #menu label {
+        display: block;
+color: #b61c32;
+    }
+    .navbar{height: 10vh;}
+}
+
+#menu ul li a {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(4, 29, 45);
+    padding: 10px 23px;
+    position: relative;
+    transition: 0.4s ease;
+    /* margin: 5px; */
+    text-decoration: none;
+    /* padding-left: 16px; */
+    border-radius: 24px;
+    border: 2px solid;
+    background-color: #1f7213;
+    text-shadow: 1px 2px 1px rgb(123, 159, 165);
+}
+
+#menu ul li:hover a {
+    color: rgb(34, 255, 0);
+}
+
+/* @media only screen and (min-width:768px) {
+    #menu ul li:last-chaild a {
+        color: aqua;
+        padding-left: 24px;
+        padding-right: 24px;
+        border-radius: 30px;
+        background-image: yellow;
+        box-shadow: 6px 6px 25px 0px green;
+
+
+    } */
+
+
+@media only screen and (max-width:620px) {
+    #menu ul {
+        position: absolute;
+        top: 100%;
+        background: #b61c32;
+        right: 0;
+        left: 0;
+        z-index: 3;
+        height: 26vh;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+        visibility: hidden;
+        margin-left: 250px;
+        top: 83px;
+        border: 2px solid yellow;
+        border-radius: 6px;
+        
+    }
+    .prakash input:checked ~ ul {
+        visibility: visible;
+        width: 84px;
+        height: 61px;
+        border: 2px solid red;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 16px;
+        font-size: 29px;
+      }
+
+    #menu label::before{
+        content:"\2261";
+        font-size: 44px;
+
+    }
+    #menu input:checked + label::before{
+        content:"\00d7";
+        font-size: 44px;
+
+    }#menu input:checked ~ ul{
+        visibility:visible ;
+
+}}
 
 .contact1 {
     height: 30px;
     background-color: black;
     width: 100vw;
 }
-
+.prakash{
+    height: 290px;
+    padding-left: 44px;
+}
+.prakash img{
+    height: 351px;
+}
+.prakash:hover img {
+    color: rgb(34, 255, 0);
+}
 .counter12 {
     padding: 0px;
     margin: 0;
     /* background-color: rgb(27, 126, 153); */
     height: 228px;
-    background-image: url(back4.jpeg);
+    background-image: url(img/sp5.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -44,66 +172,9 @@
 .counter12 img {}
 
 
-.navbar1 {
-    display: flex;
-    /* position: relative; */
-    /* position: fixed; */
-    width: 100vw;
-    height: 300px;
-    /* background-color: aqua; */
-}
-
-#navbar {
-    display: flex;
-    position: relative;
-    position: fixed;
-    top: 0px;
-    width: 100vw;
-    height: 50px;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(11, 44, 113);
-    z-index: 1;
-}
-
-#navbar ul {
-    display: flex;
-    width: 100vw;
-    position: absolute;
-    flex-direction: row;
-    justify-content: flex-end;
-    color: WHITE;
-    padding: 2px;
-    margin: 3px;
-    font-family: sans-serif;
 
 
-}
-
-#navbar ul a {
-    padding: 3px;
-    margin: 3px;
-    text-decoration: none;
-    font-weight: 600;
-    color: white;
-    justify-content: flex-end;
-}
-
-#navbar ul {
-    margin: 10px 35px;
-    padding: 40px;
-
-}
-
-#navbar li {
-    margin: 10px 35px;
-
-
-}
-
-*/ .counterintro {
+ .counterintro {
     margin: 0px;
     padding: 50px;
     margin-left: 60px;
@@ -116,8 +187,9 @@
 .counterintro h1 {
     color: rgb(13, 43, 126);
     text-shadow: 1px 2px 1px rgb(225, 235, 235);
-    font-family: "poppins", sans-serif;
+    font-family:"Permanent Marker";
     padding-left: 60px;
+    font-style: "kaushan script";
 }
 
 .counterintro pre {
@@ -130,7 +202,7 @@
 
 .counter2 {
     background-color: white;
-    height: 400px;
+    height: 276px;
     width: 100vw;
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -150,7 +222,7 @@
     font-family: sans-serif;
 }
 
-.tree pre {
+.treeA pre {
     font-family: sans-serif;
     font-size: 1.5rem;
 
@@ -172,38 +244,37 @@
 
 }
 
-
-
-
 .counter4 {
-    background-color: rgb(7, 60, 93);
-    height: 400px;
+    background-color: white;
+    height: 230px;
     width: 100vw;
     padding-left: 36px;
 }
 
 .container4 {
     padding: 3px;
-    margin: 4px;
+    margin: 13px;
     /* text-align: center; */
     width: 100%;
-    height: 100%;
+    height: 300px;
+    padding-top: 15px;
 }
 
 .container4 h1 {
-    color: white;
+    color:#2f8267;
     padding-top: 20px;
     /* font-family: 'Courier New', Courier, monospace; */
     text-size-adjust: 30px 45px;
-    font-family: sans-serif;
+    font-family: "Permanent Marker";
     font-size: 2rem;
     padding-left: 620px;
+    text-shadow: 1px 2px 1px rgb(23, 36, 139);
 }
 
 .container4 pre {
     font-family: sans-serif;
     font-size: 1.7rem;
-    color: white;
+    color:rgb(7, 89, 119);
     padding-top: 30px;
 }
 
@@ -225,7 +296,7 @@
     font-family: sans-serif;
 }
 
-.button {
+#bu1 {
     display: inline-block;
     padding: 2px;
     border: 2px solid black;
@@ -234,13 +305,23 @@
     margin-top: 30px;
     border-radius: 100px;
     text-transform: uppercase;
+    cursor: pointer
+}
 
+.button:hover {
+    background-color: rgb(55, 68, 79);
+}
+
+.button:active {
+    background-color: rgb(49, 61, 72);
+    box-shadow: 0 5px;
+    transform: translateY(3px);
 }
 
 .button h6 {
     padding: 5px;
     margin: 20px;
-    color: rgb(4, 39, 60);
+    color: rgb(130, 143, 151);
 }
 
 .counter6 {
@@ -333,6 +414,7 @@
 
 .footer-container1 h2 {
     font-family: sans-serif;
+    color: #b61c32;
 }
 
 .footer-container1 PRE {
@@ -379,65 +461,16 @@
     background-color: grey;
 }
 
-.slider {
-    height: 300px;
-    /* width: 100vw; */
-    background-color: black;
-    overflow: hidden;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
 
-.img1 {
-    /* display: block; */
-    /* margin :auto; */
-    transform: translate(-11vw); //78
-}
 
-.img2 {
-    /* display: block; */
-    /* margin :auto; */
-    transform: translate(0vw);
-}
-
-.img3 {
-    /* display: block; */
-    /* margin :auto; */
-    transform: translate(11vw); //-78
-}
-
-.slider img {
-    display: block;
-    margin: auto;
-}
-
-/* @keyframes slide1 {
-    0% {
-        transform: translate(-11vw);
-    }
-
-    100% {
-        transform: translate(78vw);
-    }
-}
-@keyframes slide2 {
-    0% {
-        transform: translate();
-    }
-
-    100% {
-        transform: translate(0vw);
-    }
-} */
-.tree {
-    background-color: whitesmoke
+.treeA {
+    background-color: white;
 }
 
 .tree1 {
     height: 460px;
     width: 100vw;
-    background-color: rgb(4, 97, 72);
+    background-color: #037947;
     border-radius: 0px 0px 120px 120px;
     color: white;
     /* padding-bottom: 34px; */
@@ -456,9 +489,9 @@
 .top {
     padding: 2px;
     padding-bottom: 34px;
-    margin: 15px;
-    height: 430px;
-    width: 384px;
+    margin: 32px;
+    height: 336px;
+    width: 352px;
     background-color: white;
     flex-direction: column;
     justify-content: center;
@@ -466,15 +499,14 @@
     border-radius: 10px;
     position: relative;
     top: -50px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-family: sans-serif;
     box-shadow: 7px 7px 7px rgb(51, 49, 49)
-
 }
 
 .top img {
-    height: 400px;
-    width: 378px;
+    height: 315px;
+    width: 341px;
 }
 
 .tree3 {
@@ -501,25 +533,23 @@
 
 
 }
+.fan2{
+    display: flex;
+}
 
 .tree5 {
     display: flex;
-    padding-left: 120px;
-    padding-bottom: 71px;
+    /* padding-left: 120px; */
+    /* padding-bottom: 71px; */
 }
 
-.tree6 {
-    display: flex;
-    padding-left: 120px;
-    padding-bottom: 71px;
-}
 
 .pic {
     padding: 0px;
     padding-bottom: 50px;
-    margin: 30px;
-    height: 320px;
-    width: 380px;
+    margin: 36px;
+    height: 256px;
+    width: 312px;
     background-color: white;
     flex-direction: column;
     justify-content: center;
@@ -528,22 +558,20 @@
     border: 2px solid black;
     font-family: sans-serif;
     box-shadow: 7px 7px 7px rgb(51, 49, 49);
+    text-align: center;
 }
 
 .pic img {
-    height: 317px;
-    width: 378px;
+    height: 175px;
+    width: 307px;
 }
 
-.tree6 {
-    display: flex;
-    padding-left: 320px;
-}
+
 
 .line {
     height: 150px;
     width: 100vw;
-    background-color: rgb(14, 69, 51);
+    background-color: rgb(26, 150, 199);
     display: flex;
     padding-top: 55px;
     padding-left: 100px;
@@ -552,16 +580,18 @@
     font-size: 1.3rem;
     box-shadow: 7px 7px 7px rgb(51, 49, 49);
 }
-.sir1{
+
+.sir1 {
     padding-right: 125px;
+    color: white;
 }
 
-.button2{
+#bu2 {
     height: 60px;
     width: 197px;
     color: white;
     background-color: rgb(61, 10, 10);
-    
+
 }
 
 .tree7 {
@@ -569,8 +599,13 @@
     width: 100vw;
     padding-top: 20px;
     box-shadow: 9px 9px silver;
-
-
+}
+.tree {
+    background-color: whitesmoke;
+}
+.tree pre {
+    font-family: sans-serif;
+    font-size: 1.5rem;
 
 }
 
@@ -581,16 +616,12 @@
     height: 340px;
     width: 380px;
     background-color: white;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* border-radius: 10px; */
     text-align: center;
     font-family: sans-serif;
     border: 2px solid black;
     color: rgb(133, 63, 63);
     box-shadow: 7px 7px 7px rgb(51, 49, 49);
-    
+
 }
 
 .box1 {
@@ -628,7 +659,8 @@
     justify-content: center;
 }
 
-.tree8 {text-align: center;
+.tree8 {
+    text-align: center;
     padding-top: 40px;
     height: 500px;
     width: 100vw;
@@ -638,6 +670,7 @@
     margin: 0;
 
 }
+.tree8 h1{text-shadow: 1px 2px 1px rgb(7, 26, 71)}
 
 .t1 {
     padding-top: 82px;
@@ -652,6 +685,7 @@
 
 .t1 h1 {
     padding-bottom: 20px;
+    text-shadow: 1px 2px 1px rgb(6, 8, 138)
 }
 
 .t3 {
@@ -667,18 +701,25 @@
     text-align: center;
     padding-top: 30px;
 }
+
 /* slider  */
 
-.slide-container{
+.slide-container {
     position: relative;
     width: 100vw;
     scroll-behavior: smooth;
+    height: 426px;
+    /* background-color: #037947; */
 }
-.slide img{
+
+
+.slide img {
     width: 80vw;
     height: 580px;
+
 }
-.arrow{
+
+.arrow {
     cursor: pointer;
     position: absolute;
     top: 45%;
@@ -689,13 +730,16 @@
     font-size: 25px;
     font-weight: bold;
 }
-.next{
-    right: 10px;
+
+.next {
+    right: 169px;
 }
-.prev{
-    left: 10px;
+
+.prev {
+    left: 161px;
 }
-.caption{
+
+.caption {
     color: black;
     font-size: 30px;
     font-weight: bold;
@@ -705,13 +749,159 @@
     text-align: center;
     background-color: rgb(56, 22, 22)
 }
-.slide{
+
+.slide {
     display: none;
+    /* background-color: blue; */
+    /* align-items: center; */
 }
-.l1{
-    height: 26px;
+.slide3{
+    height: 259px;
     width: 100vw;
-    background-color: rgb(22, 34, 22);
+    /* background-color: aqua; */
+    display: flex;
+    padding-left: 16px;
 }
 
 
+.slide3A{
+    height: 394px;
+    width: 72%;
+    /* background-color: brown; */
+    margin-left: 200px;
+    padding: 9px;
+    display: flex;
+    padding-left: 107px;
+    border-radius: 53px;
+    border: 2px solid;
+}
+.slide3A img{
+    height: 50px;
+    width: 50px;
+}
+.slide3B{
+    height: 400px;
+    width: 30%;
+    background-color: rgb(7, 18, 95);
+    margin-left: 221px;
+    display: flex;
+}
+
+.l1 {
+    height: 10px;
+    width: 100vw;
+    background-color: rgb(3, 104, 150);
+}
+#trainer1 {
+    height: 60px;
+    width: 197px;
+    color: white;
+    background-color:rgb(3, 104, 150);
+/* margin-right: -9px; */
+}#trainer2 {
+    height: 60px;
+    width: 197px;
+    color: white;
+    background-color: rgb(3, 104, 150);
+
+}#trainer3 {
+    height: 60px;
+    width: 197px;
+    color: white;
+    background-color:rgb(3, 104, 150);
+    /* margin-right: -9px; */
+}#trainer4 {
+    height: 60px;
+    width: 197px;
+    color: white;
+    background-color: rgb(3, 104, 150)}
+.button a{
+    text-decoration: none;}
+   .button h1{
+    color: #bec7c9;
+   }
+   .tree8 h1{
+    color: #077bc3;
+    
+   }
+   
+
+
+    .mp1{
+        height: 308px;
+        width:316px ;
+        border-radius: 50%;
+        background-color: antiquewhite;
+    }
+.mpt{
+    height: 308px;
+    width: 527px;
+    background-color: aliceblue;
+}
+.prakash ul {
+    position: absolute;
+    top: 100%;
+    background: #bec7c9;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    visibility: hidden;
+    margin-left: 20px;
+    top: 224px;
+}
+
+.prakash label::before{
+    content:"\2261";
+    font-size: 72px;
+position: relative;
+top:-134px;
+font-weight: 600;
+color: #ff5400;
+}
+.prakash input:checked + label::before{
+    content:"\00d7";
+    font-size: 72px;
+    top:-138px;
+    position: relative;
+   font-weight: 600;
+}.prakash input:checked ~ ul{
+    visibility:visible ;
+    width: 150px;
+    height: 74px;
+    
+        border: 2px solid red;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 16px;
+        font-size: 23px;
+        border-radius: 27px;
+        font-family: sans-serif;
+        background-color: #29a7bbf0;
+        color: #ff5400;
+      
+} .prakash input:checked ~ ul a{
+    text-decoration: none;
+    color: #110e0d;
+}
+.prakash input {
+    display: block;
+
+}
+#pushbtn{
+
+}
+.tree10{
+    height: 374px;
+    background-color: antiquewhite;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width:620px){
+.tree10{
+ 
+    height: 222px;}}

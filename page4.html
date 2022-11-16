@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page4</title>
+    <link rel="stylesheet" href="page4.css">
+    <script src="page4.js"></script>
+</head>
+<body>
+    <header>
+    <div class="class2">
+        <img src="img/logo-removebg-preview.png" width="250px">
+        </div>
+    <div class="class">
+        <div class="content">
+            <form class="form"
+                name="myForm"
+                onsubmit="return validateForm()"
+                method="post"
+              >
+            <h1><u>BOOK AN APPOINTMENT</u></h1>
+            <br>
+            <div class ="label">
+              <label><b>MENTOR SELECTED :</b></label>
+            </div>
+             <div class="formdesign" id="mentor">
+              <input type="text" value="MR. ARPIT SINGH" name="fmentor"/>
+             </div>
+             <br>
+              <div class="label">
+              <label><b>NAME:</b> </label>
+              </div>
+              <div class="formdesign" id="name">
+                <input type="text" name="fname" required />
+              </div>
+              <br>
+              <div class="label">
+              <label><b>MOBILE NUMBER:</b></label>
+              </div>
+              <div class="formdesign" id="number">
+                <input type="number" name="fnumber" required />
+              </div>
+              <br>
+              <div class="label">
+              <label><b>DATE:</b></label>
+              </div>
+              <input type="date" name="fdate" required>
+              <br>
+              <br>
+              <br>
+              <div class="class3">
+                <input type="submit" value="SUBMIT"/>
+              </div>
+         </form>
+        </div>
+        </div>   
+</body>
+</html>

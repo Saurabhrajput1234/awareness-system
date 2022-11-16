@@ -1,20 +1,21 @@
-let flag = 0;
-function controller(x){
-    flag= flag + x;
-    slideshow(flag);
+let pin = 0;
+function saurabh(x){
+    pin= pin + x;
+    slideshow(pin);
 
 
 }
 
-slideshow(flag)
+slideshow(pin)
 function slideshow(num){
-    let slides = document.getElementsByClassName('slide');
+    let slides = document.getElementsByClassName('music1');
     if(num == slides.length){
-        flag = 0;
+        pin = 0;
         num = 0;
     }
+    console.log("slide")
     if (num < 0)
-    { flag = slides.length-1;
+    { pin = slides.length-1;
      num = slides.length-1;}
 
     for(let y of slides){
@@ -24,4 +25,3 @@ function slideshow(num){
     
     slides[num].style.display = "block";  
 }
-

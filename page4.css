@@ -1,0 +1,63 @@
+body{
+    background-color: bisque;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .class{
+    background-color: aliceblue;
+    background-image: url(img/page4.jpeg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 60%;
+    margin: 117px auto;
+    border-radius: 9%;
+    height: 575px;
+    padding: 7%;
+    background-position: left;
+    }
+    .content{
+        text-align: left;
+        margin-left: 56%;
+    }
+    .form{
+        background-color:#62d0b7;
+        text-align: center;
+        padding: 12%;
+        border-radius: 11%;  
+    }
+    input {
+    background-color: #74BC5b;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 28px;
+  }
+  .class3 {
+    text-align: center;
+    margin: -10px 27%;
+    padding: 2%;
+    width: 45%;
+  }
+  .class3 input {
+    background-color: #f95915;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: #3642ad;
+    cursor:pointer;
+  }
+  h1{
+    color:#124f63;
+  }
+  .label{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  .class2 {
+    margin: 0% auto;
+    display: inline-block;
+    top: 22px;
+    position: absolute;
+    left: 330px;
+    top: 80px;
+  }
