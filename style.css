@@ -77,7 +77,7 @@ color: #b61c32;
     /* padding-left: 16px; */
     border-radius: 24px;
     border: 2px solid;
-    background-color: #1f7213;
+    background-color: #f3f7f2;
     text-shadow: 1px 2px 1px rgb(123, 159, 165);
 }
 
@@ -85,28 +85,18 @@ color: #b61c32;
     color: rgb(34, 255, 0);
 }
 
-/* @media only screen and (min-width:768px) {
-    #menu ul li:last-chaild a {
-        color: aqua;
-        padding-left: 24px;
-        padding-right: 24px;
-        border-radius: 30px;
-        background-image: yellow;
-        box-shadow: 6px 6px 25px 0px green;
 
-
-    } */
 
 
 @media only screen and (max-width:620px) {
     #menu ul {
         position: absolute;
         top: 100%;
-        background: #b61c32;
+        background: #3ec0cdcf;
         right: 0;
         left: 0;
         z-index: 3;
-        height: 26vh;
+        height: 18vh;
         display: flex;
         justify-content: center;
         /* align-items: center; */
@@ -114,7 +104,7 @@ color: #b61c32;
         visibility: hidden;
         margin-left: 250px;
         top: 83px;
-        border: 2px solid yellow;
+        border: 2px solid red;
         border-radius: 6px;
         
     }
@@ -312,11 +302,11 @@ color: #b61c32;
     background-color: rgb(55, 68, 79);
 }
 
-.button:active {
+/* .button:active {
     background-color: rgb(49, 61, 72);
     box-shadow: 0 5px;
     transform: translateY(3px);
-}
+} */
 
 .button h6 {
     padding: 5px;
@@ -478,7 +468,7 @@ color: #b61c32;
 }
 
 .tree2 {
-    height: 500px;
+    height: 382px;
     width: 100vw;
     display: flex;
     padding-left: 150px;
@@ -489,7 +479,7 @@ color: #b61c32;
 .top {
     padding: 2px;
     padding-bottom: 34px;
-    margin: 32px;
+    margin: 21px;
     height: 336px;
     width: 352px;
     background-color: white;
@@ -557,7 +547,7 @@ color: #b61c32;
     /* border-radius: 10px; */
     border: 2px solid black;
     font-family: sans-serif;
-    box-shadow: 7px 7px 7px rgb(51, 49, 49);
+    box-shadow: 5px 7px 8px 3px silver;
     text-align: center;
 }
 
@@ -670,7 +660,8 @@ color: #b61c32;
     margin: 0;
 
 }
-.tree8 h1{text-shadow: 1px 2px 1px rgb(7, 26, 71)}
+.tree8 h1{text-shadow: 1px 2px 1px rgb(7, 26, 71);
+           color:#c8aeae;}
 
 .t1 {
     padding-top: 82px;
@@ -796,25 +787,25 @@ color: #b61c32;
     height: 60px;
     width: 197px;
     color: white;
-    background-color:rgb(3, 104, 150);
+    background-color:rgb(181, 224, 221);
 /* margin-right: -9px; */
 }#trainer2 {
     height: 60px;
     width: 197px;
     color: white;
-    background-color: rgb(3, 104, 150);
+    background-color: rgb(181, 224, 221);
 
 }#trainer3 {
     height: 60px;
     width: 197px;
     color: white;
-    background-color:rgb(3, 104, 150);
+    background-color:rgb(181, 224, 221);
     /* margin-right: -9px; */
 }#trainer4 {
     height: 60px;
     width: 197px;
     color: white;
-    background-color: rgb(3, 104, 150)}
+    background-color: rgb(181, 224, 221)}
 .button a{
     text-decoration: none;}
    .button h1{
@@ -862,6 +853,7 @@ position: relative;
 top:-134px;
 font-weight: 600;
 color: #ff5400;
+
 }
 .prakash input:checked + label::before{
     content:"\00d7";
@@ -886,10 +878,19 @@ color: #ff5400;
       
 } .prakash input:checked ~ ul a{
     text-decoration: none;
-    color: #110e0d;
+    color: #06258a;
+    text-shadow: 1px 2px 1px rgb(104, 23, 134);
+}
+.prakash input:checked ~ ul:hover a {
+    color: rgb(34, 255, 0);
 }
 .prakash input {
     display: block;
+
+}
+.prakash label::before:hover {
+    color: #b61c32;
+
 
 }
 #pushbtn{
@@ -904,4 +905,12 @@ color: #ff5400;
 @media only screen and (max-width:620px){
 .tree10{
  
-    height: 222px;}}
+    height: 222px;}
+
+    .prakash label::before{
+        content:"\2261";
+        font-size: 72px;
+    position: relative;
+    top:-134px;
+    font-weight: 600;
+    color: #ff5400;}
