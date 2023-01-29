@@ -75,9 +75,7 @@
     padding: 10px 23px;
     position: relative;
     transition: 0.4s ease;
-    /* margin: 5px; */
     text-decoration: none;
-    /* padding-left: 16px; */
     border-radius: 24px;
     border: 2px solid;
     background-color: #f3f7f2;
@@ -87,9 +85,6 @@
 #menu ul li:hover a {
     color: rgb(34, 255, 0);
 }
-
-
-
 
 @media only screen and (max-width:620px) {
     #menu ul {
@@ -149,7 +144,7 @@
 .prakash {
     height: 290px;
     padding-left: 44px;
-    background-image: url(img/back3.jpg);
+    /* background-image: url(img/back3.jpg); */
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -445,6 +440,7 @@
     height: 60px;
     background-color: grey;
 }
+
 .treeA {
     background-color: white;
 }
@@ -515,6 +511,7 @@
 .tree5 {
     display: flex;
 }
+
 .pic {
     padding: 0px;
     padding-bottom: 50px;
@@ -535,6 +532,7 @@
     height: 175px;
     width: 307px;
 }
+
 .line {
     height: 150px;
     width: 100vw;
