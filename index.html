@@ -9,6 +9,11 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="styleh.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
 </head>
 
 <body>
@@ -24,7 +29,6 @@
                     <li><a href="t&r.html">TRAINING & RESOURCE CENTRE</a></li>
                     <li><a href="about.html">ABOUT US</a></li>
                     <li><a href="page2.html">SIGN-UP/LOGIN</a></li>
-                    <!-- <li><a href="#">GET HELP</a></li> -->
                 </ul>
             </nav>
         </div>
@@ -58,7 +62,26 @@
 
                 </div>
             </div>
-
+            <!-- slider auto -->
+            <div class="slider2">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/app.jpeg" alt=""> </div>
+                    <div class="swiper-slide"><img src="img/app1.jpeg" alt=""> </div>
+                    <div class="swiper-slide"><img src="img/app5.jpeg" alt=""> </div>
+                    <div class="swiper-slide"><img src="img/app3.jpeg" alt=""> </div>
+                    <div class="swiper-slide"><img src="img/app4.jpeg" alt=""> </div>
+                    <!-- <div class="swiper-slide"><img src="img/back4.jpeg" alt=""> </div>
+                    <div class="swiper-slide"><img src="img/back4.jpeg" alt=""> </div>
+                    <div class="swiper-slide"><img src="img/back4.jpeg" alt=""> </div>
+                    <div class="swiper-slide"><img src="img/back4.jpeg" alt=""> </div> -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+              
             <div class="counter2" id="about">
                 <div class="container2">
                     <h1>
@@ -139,6 +162,7 @@ green alert bar
   F:(312)726-7022    
                         </pre>
                     </div>
+                    <div class="toy">
                     <div class="social-icon">
                         <div class="social-item">
                             <a href="_blank">
@@ -159,7 +183,7 @@ green alert bar
                                 <img src="https://img.icons8.com/fluent/48/000000/github.png">
                             </a>
                         </div>
-                    </div>
+                    </div></div>
             </section>
             <div class="counter9">
                 <div class="container9">
@@ -179,6 +203,25 @@ or tools provided).
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+    </script>
 
 </body>
 

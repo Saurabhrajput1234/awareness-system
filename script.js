@@ -25,3 +25,5 @@ function slideshow(num){
     slides[num].style.display = "block";  
 }
 
+
+
